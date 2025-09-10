@@ -1,38 +1,58 @@
+# **EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS**
+## DATE:
+## **Aim**:
 
+To test and compare how different pattern models (naïve/unstructured vs. basic/structured) respond to various prompts across multiple scenarios, and analyze the quality, accuracy, and depth of the generated responses.
 
-# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
+---
 
-# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+## **AI Tool Required**:
 
-### AI Tools Required: 
+ChatGPT (or any large language model)
 
-# Explanation: 
-Define the Two Prompt Types:
+---
 
-Write a basic Prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Based on that pattern type refined the prompt and submit that with AI tool.
-Get the ouput and write the report.
+## **Explanation**:
 
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+### **Prompt Types**:
 
+1. **Naïve Prompt** – A broad, vague, or unstructured request with little detail.
+2. **Basic Prompt** – A clear, structured, and detailed instruction that guides the model more precisely.
 
-# OUTPUT
+---
 
-# RESULT: The prompt for the above said problem executed successfully
+## **Test Scenarios and Prompts**
+
+| **Scenario**                  | **Naïve Prompt**    | **Basic Prompt**                                                                                                                                     | **Naïve Response (Sample)**                               | **Basic Response (Sample)**                                                                                                    | **Analysis**                                                     |
+| ----------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| **1. Creative Story**         | “Write a story.”    | “Write a short fantasy story about a young girl who discovers a magical key in the forest that leads her to another world. Keep it under 200 words.” | A generic story, lacking depth or theme.                  | A clear, engaging fantasy story with structure and focus.                                                                      | Basic prompt gave more relevant, imaginative, and concise story. |
+| **2. Factual Question**       | “Tell me about AI.” | “Explain what Artificial Intelligence is, its types, and give one real-world example in simple words.”                                               | A vague definition, may miss types/examples.              | A well-structured answer explaining definition, types (Narrow, General, Strong AI), with an example (Siri, self-driving cars). | Basic prompt improves clarity and depth.                         |
+| **3. Summarization**          | “Summarize.”        | “Summarize the concept of Machine Learning in less than 5 bullet points for beginners.”                                                              | Model may not know what to summarize; gives unclear text. | Clear 5-point summary of ML concepts.                                                                                          | Basic prompt directs model to concise, structured output.        |
+| **4. Advice/Recommendation**  | “Give me advice.”   | “Suggest 3 time management tips for college students balancing studies and part-time work.”                                                          | Generic life advice.                                      | Practical and specific time-management strategies (use planner, prioritize tasks, set study-work balance).                     | Basic prompt ensures actionable advice.                          |
+| **5. Explanation of Concept** | “Explain cloud.”    | “Explain what cloud computing is, list its advantages, and give one example of a cloud service provider.”                                            | Ambiguous explanation (could mean weather).               | Detailed explanation of cloud computing, with benefits (scalability, cost-effectiveness), and example (AWS, Azure).            | Basic prompt prevents misinterpretation.                         |
+
+---
+
+## **Analysis of Responses**:
+
+* **Quality**: Basic prompts consistently generated more coherent and structured outputs compared to naïve prompts.
+* **Accuracy**: Factual accuracy improved when context and details were specified in basic prompts.
+* **Depth**: Basic prompts enabled deeper, task-relevant insights while naïve prompts often gave surface-level responses.
+* **Consistency**: In almost all scenarios, structured prompts provided better results. Naïve prompts only worked well in very simple, open-ended creative tasks.
+
+---
+
+## **Summary of Findings**:
+
+* **Prompt clarity strongly influences output quality.**
+* Naïve prompts often yield vague, generic, or misinterpreted answers.
+* Basic prompts produce structured, accurate, and richer responses.
+* The more specific and contextual the prompt, the better the AI performs.
+* Best practice: Always provide **context + structure + constraints** for optimal results.
+
+---
+
+## **Result**:
+
+Thus, the prompts were executed successfully.
+

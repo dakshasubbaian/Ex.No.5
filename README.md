@@ -35,4 +35,5 @@ Summary of findings with insights on how to structure prompts for optimal result
 
 # OUTPUT
 
-# RESULT: The prompt for the above said problem executed successfully
+# RESULT: 
+The prompt for the above said problem executed successfully
